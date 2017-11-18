@@ -51,4 +51,8 @@ public interface SysUserMapper {
      * @mbggenerated
      */
     int updateByPrimaryKey(SysUser record);
+
+    /**
+     * 改变2处
+     */
 }

@@ -28,7 +28,7 @@ public class SysUserController {
 		model.addAttribute("user", user);
 		return "showUser";
 	}
-	
+
 	@RequestMapping("/showUserToJSONById/{userId}")
 	@ResponseBody
 	public SysUser showUser(@PathVariable("userId") Long userId){
@@ -36,7 +36,7 @@ public class SysUserController {
 		return user;
 	}
 	
-	
+
 	@RequestMapping("/test-logback")
 	@ResponseBody
 	public Date testLogback(){
@@ -47,8 +47,10 @@ public class SysUserController {
 		LOG.error("-----------------------------------error");
 		return new Date();
 	}
-	
 
 
+	/**
+	 * 改变1处
+	 */
 
 }
