@@ -6,7 +6,8 @@
 	<settings>
 		<!-- 开启mybatis缓存设置,一般都是true -->
 		<setting name="cacheEnabled" value="true"/>
-		
+
+
 		<!--延迟加载的全局开关-->
 		<setting name="lazyLoadingEnabled" value="false"/>
 		
